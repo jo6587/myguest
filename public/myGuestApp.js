@@ -1,4 +1,4 @@
-ngular.module('myGuestApp', [])
+angular.module('myGuestApp', [])
   .controller('MyGuestController', ['$scope', '$http', function($scope, $http) {
     $scope.guests = [];
     $scope.newGuest = {};
